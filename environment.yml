@@ -1,0 +1,13 @@
+name: phylonet-hmm-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pyfaidx
+  - iqtree            # IQ-TREE v2; script tries iqtree2 then iqtree
+  - openjdk           # Java runtime for PhyloNet
+  - pip
+
